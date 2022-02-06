@@ -1,0 +1,39 @@
+.container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    max-width: 500px;
+    border-width: 0px 0px 0px 0px;
+    border-color: rgba(188, 188, 188, 1);
+    border-radius: 5;
+    border-style: solid;
+    box-shadow: 0px 5px 35px 0px rgba(50, 50, 93, 0.17); /* hover styles */
+    border-style: solid;
+    box-shadow: 0px 5px 35px 0px rgba(50, 50, 93, 0.17);
+}
+
+.secondaryTitle {
+    text-align: center;
+}
+
+.rowContainer {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row h3 {
+    margin-right: auto;
+}
+
+#totalWithTax {
+    font-weight: bold;
+    font-size: 20px;
+}
