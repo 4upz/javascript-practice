@@ -1,6 +1,6 @@
 function calculateTotal() {
-    let totalElement = document.getElementById("totalWithTax");
-    totalElement.innerHTML = 0;
+    let totalWithTaxElement = document.getElementById("totalWithTax");
+    totalWithTaxElement.innerHTML = 0;
 }
 
 calculateTotal();
